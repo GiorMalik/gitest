@@ -1,0 +1,36 @@
+# gitest — GIOR Pentest Framework
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Scan output (user-generated, not part of repo)
+SCAN/targets/*/recon/*
+SCAN/targets/*/loot/*
+SCAN/targets/*/exploits/*
+SCAN/targets/*/screenshots/*
+SCAN/targets/*/payloads/*
+SCAN/targets/*/reports/*
+
+# Keep SCAN directory structure
+!SCAN/targets/*/
+!SCAN/targets/*/reports/
+!SCAN/targets/*/recon/
+!SCAN/targets/*/loot/
+!SCAN/targets/*/exploits/
+!SCAN/targets/*/screenshots/
+!SCAN/targets/*/payloads/
+
+# Temp files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Scan reports (user-generated, not part of repo)
+SCAN/reports/

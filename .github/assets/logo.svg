@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00bfff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="120" rx="16" fill="#000000"/>
+  <text x="200" y="52" text-anchor="middle" font-family="monospace" font-size="34" font-weight="bold" fill="url(#grad)" letter-spacing="4">GITEST</text>
+  <text x="200" y="78" text-anchor="middle" font-family="monospace" font-size="13" font-weight="bold" fill="#00ff41">GIOR PENTEST FRAMEWORK</text>
+  <text x="200" y="98" text-anchor="middle" font-family="monospace" font-size="10" fill="#00bfff">OPENCODE · 250+ PLAYBOOKS · 18 DATA LAYERS</text>
+</svg>
